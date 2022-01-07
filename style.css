@@ -1,6 +1,6 @@
 body{
     margin:0;
-    font-family: Arial, Helvetica, sans-serif;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;}
 
   h1{
@@ -17,7 +17,8 @@ h2{
 #header-line{
 border-left: solid 5px tomato;
 border-image-slice: 1;
-border-radius: 10px;
+border-radius:0px;
+height:130px ;
 }
 
 .button{
@@ -49,7 +50,7 @@ section{
     color: rgb(15, 29, 70);
 }
 span{
-    color: rgba(226, 160, 37, 0.897);
+    color:sandybrown;
 }
 .mission{
     width: 25%;
@@ -109,5 +110,61 @@ background-position: left ;
 .community-center-image img{
     width: 100%;
  padding: 40px 40px 70px 300px;
+background-image: url(images/shapes/shape-1.png);
+background-size: 150px;
+background-repeat: no-repeat;
+background-position: right bottom;
+}
+#helth-area-header{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+#health-blog{
+    font-style:bold;
+    font-size: 45px;
+    font-weight: 400px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.health-area{
+    display: flex;
+    width: 50%;
+    padding-right:8%;
+    padding-left: 20%;
+    padding-top: 7%;
+    padding-bottom: 10%;
+}
 
+.health-blog-area{
+    padding-top: 20px;
+}
+
+.health-image-area img{
+    width: 80%;
+    background-image: url(images/shapes/shape-3.png);
+    background-size:140px;
+    background-position-x: left center 50px;
+    background-position-y:bottom 40px;
+    background-repeat: no-repeat;
+  }
+footer{
+    text-align: center;
+background-color: rgb(11, 17, 34);
+border-radius: 15px;
+height: 120px;
+}
+#foter-header{
+    font-size: 30px;
+    font-weight: 700px;
+font-style:italic;
+font-family: monospace;
+color: whitesmoke;
+padding-top: 20px;
+}
+.fotetr-text{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.span-color{
+    color:salmon;
 }
