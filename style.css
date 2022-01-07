@@ -115,37 +115,35 @@ background-size: 150px;
 background-repeat: no-repeat;
 background-position: right bottom;
 }
-#helth-area-header{
+
+#skil-area-header{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
+
 }
-#health-blog{
+#skil-blog{
     font-style:bold;
     font-size: 45px;
     font-weight: 400px;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.health-area{
+.skil-area{
     display: flex;
     width: 50%;
-    padding-right:8%;
-    padding-left: 20%;
     padding-top: 7%;
     padding-bottom: 10%;
+   padding: 40px;
 }
 
-.health-blog-area{
+.skil-blog-area{
     padding-top: 20px;
+    padding-left: 30px;
 }
 
-.health-image-area img{
-    width: 80%;
-    background-image: url(images/shapes/shape-3.png);
-    background-size:140px;
-    background-position-x: left center 50px;
-    background-position-y:bottom 40px;
-    background-repeat: no-repeat;
+.skil-image-area img{
+    width: 100%;
+    
   }
 footer{
     text-align: center;
